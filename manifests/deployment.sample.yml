@@ -2,7 +2,7 @@ apiVersion : apps/v1
 kind: Deployment
 metadata:
   name: <deployment_name>
-  namespace: app-ingress
+  namespace: <namespace>
 spec:
   replicas: 2
   selector:
