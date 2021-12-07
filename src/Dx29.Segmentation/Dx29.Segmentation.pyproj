@@ -42,9 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".dockerignore" />
+    <Content Include="~Deployment\azure-pipelines.sample.yml" />
     <Content Include="build-run.ps1" />
+    <Content Include="~Deployment\deployment.sample.yml" />
     <Content Include="Dockerfile" />
     <Content Include="requirements.txt" />
+    <Content Include="~Deployment\service.sample.yml" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -56,11 +59,6 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\azure-pipelines.yml" Link="~Deployment\azure-pipelines.yml" />
-    <None Include="..\..\manifests\deployment.yml" Link="~Deployment\deployment.yml" />
-    <None Include="..\..\manifests\service.yml" Link="~Deployment\service.yml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
