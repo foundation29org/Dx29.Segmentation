@@ -4,6 +4,9 @@
 
 Dx29 Segmentation
 ==============================================================================================================================================
+
+[![Build Status](https://f29.visualstudio.com/Dx29%20v2/_apis/build/status/DEV-MICROSERVICES/Dx29.Segmentation?branchName=develop)](https://f29.visualstudio.com/Dx29%20v2/_build/latest?definitionId=108&branchName=develop)
+
 ### **Overview**
 
 This project is used to divide a text into paragraphs, lines, sections,… 
